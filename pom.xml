@@ -1,7 +1,8 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <packaging>war</packaging>
+ 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>3.3.2</version>
+  <version>1</version>
+  <packaging>war</packaging>
 </project>
