@@ -2,7 +2,7 @@
 int main() {    
 
     int number1, number2, sum;
-    number1=16;
+    number1=18;
     number2=12;
     
    // printf("Enter two integers: ");
