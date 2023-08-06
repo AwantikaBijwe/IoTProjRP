@@ -3,17 +3,7 @@
   <groupId>kms-api-examples</groupId>
   <artifactId>my-app</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-	<executions>
-                    <execution>
-                        <goals>
-                            <goal>jar</goal>
-                            <goal>test-jar</goal>
-                        </goals>
-                    </execution>
-                </executions>
-                 <configuration>
-        <attachClassifier>client</attachClassifier>
-    </configuration>
+	
   <dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
@@ -31,7 +21,7 @@
     <artifactId>maven-jar-plugin</artifactId>
     <version>3.2.0</version>
     <configuration>
-        <attachClassifier>classes</attachClassifier>
+        <classifier>classes</classifier>
     </configuration>
 </plugin>
       <plugin>
