@@ -5,12 +5,5 @@
 <artifactId>my-app</artifactId>
 <version>1.0-SNAPSHOT</version>
 <packaging>jar</packaging>
-<dependencies>
-<dependency>
-<groupId>org.springframework</groupId>
-<artifactId>spring-web</artifactId>
-<version>5.3.10</version>
-</dependency>
-</dependencies>
 </project>
 
