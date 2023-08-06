@@ -11,9 +11,9 @@
                         </goals>
                     </execution>
                 </executions>
-                <configuration>
-                    <classifier>client</classifier>
-                    <archive>
+                 <configuration>
+        <attachClassifier>client</attachClassifier>
+    </configuration>
   <dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
