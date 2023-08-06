@@ -5,11 +5,12 @@
 <artifactId>my-app</artifactId>
 <version>1.0-SNAPSHOT</version>
 <packaging>jar</packaging>
-<dependency>
+<dependencies><dependency>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-artifact-classifier-plugin</artifactId>
     <version>3.0.0</version>
 </dependency>
+</dependencies>
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
