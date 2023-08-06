@@ -3,6 +3,7 @@
    <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1</version>
+  <packaging>jar</packaging>
     <build>
     <plugins><plugin>
                 <groupId>org.apache.maven.plugins</groupId>
