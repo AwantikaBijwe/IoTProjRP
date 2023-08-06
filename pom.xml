@@ -6,40 +6,40 @@
   <dependencies>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>my-app</artifactId>
+			<artifactId>my-app-2</artifactId>
 			<version>4.3.2</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>my-app</artifactId>
+			<artifactId>my-app-3</artifactId>
 			<version>4.3.2</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.apache.httpcomponents</groupId>
-			<artifactId>my-app</artifactId>
+			<artifactId>my-app-4</artifactId>
 			<version>4.3.2</version>
 			<type>jar</type>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>my-app</artifactId>
+			<artifactId>my-app-5</artifactId>
 			<version>2.4.0</version>
 		</dependency>
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>my-app</artifactId>
+			<artifactId>my-app-6</artifactId>
 			<version>2.4.0</version>
 		</dependency>
 	</dependencies>
   <build>
     <plugins>
       <plugin>
-        <artifactId>my-app</artifactId>
+        <artifactId>my-app-6</artifactId>
         <version>3.5.1</version>
         <configuration>
           <source>1.7</source>
