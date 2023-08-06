@@ -1,7 +1,19 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
- 
-  <groupId>com.mycompany.app</groupId>
+   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
   <version>1</version>
+    <build>
+    <plugins><plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.1</version>
+               
+                <configuration>
+                    <classifier>client</classifier>
+                    
+                </configuration>
+            </plugin>
+</plugins></build>
+
 </project>
