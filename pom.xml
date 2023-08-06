@@ -7,8 +7,9 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <groupId>com.javatpoint.application1</groupId>  
   <artifactId>my-app</artifactId>  
   <version>1</version>  
-<packaging>jar</packaging>
-  <plugin>
+<packaging>war</packaging>
+  <plugin><build>
+    <plugins>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.2</version>
@@ -18,4 +19,5 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
                     
                 </configuration>
             </plugin>
+</plugins></build>
 </project>  
