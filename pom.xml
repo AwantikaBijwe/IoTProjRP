@@ -11,13 +11,13 @@
     <version>3.0.0</version>
 </dependency>
 </dependencies>
-<plugins><plugin>
+ <build><plugins><plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-jar-plugin</artifactId>
     <version>3.2.0</version>
     <configuration>
         <attachClassifier>classes</attachClassifier>
     </configuration>
-</plugin></plugins>  
+</plugin></plugins> </build>  
 </project>
 
