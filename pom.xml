@@ -8,5 +8,14 @@ http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <artifactId>my-app</artifactId>  
   <version>1</version>  
 <packaging>jar</packaging>
-  
+  <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.1.2</version>
+               
+                <configuration>
+                    <classifier>client</classifier>
+                    
+                </configuration>
+            </plugin>
 </project>  
