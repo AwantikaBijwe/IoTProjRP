@@ -3,14 +3,13 @@
    <groupId>com.mycompany.app</groupId>
   <artifactId>my-app-1-client</artifactId>
   <version>1</version>
-  <packaging>jar</packaging>
+  <packaging>war</packaging>
     <build>
     <plugins><plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.1</version>
-               
-                <configuration>
+                      <configuration>
                     <classifier>client</classifier>
                     <archive>
             <manifest>
