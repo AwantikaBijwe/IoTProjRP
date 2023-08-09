@@ -12,7 +12,7 @@
     <version>3.1.1</version>
     <extensions>false</extensions>
     <configuration>
-        <failOnMissingWebXml>false</failOnMissingWebXml>
+         <webXml>WebContent\WEB-INF\web.xml</webXml>
     </configuration>
 </plugin><plugin>
                 <groupId>org.apache.maven.plugins</groupId>
