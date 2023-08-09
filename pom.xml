@@ -11,7 +11,7 @@
                 <version>3.1.1</version>
                
                 <configuration>
-                    <classifier>client</classifier>
+                    <classifier>1</classifier>
                     
                 </configuration>
             </plugin>
