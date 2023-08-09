@@ -5,24 +5,8 @@
   <version>1</version>
   <packaging>jar</packaging>
     <build>
-    <plugins>
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>3.1.1</version>
-    <extensions>false</extensions>
-    <configuration>
-       <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <mainClass>org.jis.Main</mainClass>
-
-            </manifest>
-          </archive>
-         <webXml>WEB-INF\web.xml</webXml>
-         <failOnMissingWebXml>false</failOnMissingWebXml>
-    </configuration>
-</plugin><plugin>
+    <plugins>   
+    <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.1</version>
