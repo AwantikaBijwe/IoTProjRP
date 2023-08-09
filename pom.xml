@@ -12,7 +12,15 @@
     <version>3.1.1</version>
     <extensions>false</extensions>
     <configuration>
+       <archive>
+            <manifest>
+              <addClasspath>true</addClasspath>
+              <mainClass>org.jis.Main</mainClass>
+
+            </manifest>
+          </archive>
          <webXml>WEB-INF\web.xml</webXml>
+         <failOnMissingWebXml>false</failOnMissingWebXml>
     </configuration>
 </plugin><plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -20,14 +28,7 @@
                 <version>3.1.1</version>
                       <configuration>
                     <classifier>1</classifier>
-                    <archive>
-            <manifest>
-              <addClasspath>true</addClasspath>
-              <mainClass>org.jis.Main</mainClass>
-
-            </manifest>
-          </archive>
-                    <failOnMissingWebXml>false</failOnMissingWebXml>
+                   
                 </configuration>
             </plugin>
 </plugins></build>
