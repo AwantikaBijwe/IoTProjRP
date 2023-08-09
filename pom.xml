@@ -12,7 +12,7 @@
     <version>3.1.1</version>
     <extensions>false</extensions>
     <configuration>
-         <webXml>\WEB-INF\web.xml</webXml>
+         <webXml>WEB-INF\web.xml</webXml>
     </configuration>
 </plugin><plugin>
                 <groupId>org.apache.maven.plugins</groupId>
