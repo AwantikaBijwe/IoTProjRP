@@ -7,7 +7,8 @@
     <build>
     <plugins>
       <plugin>
-    <artifactId>maven-war-plugin</artifactId>
+        <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-jar-plugin</artifactId>
     <version>3.1.1</version>
     <extensions>false</extensions>
     <configuration>
