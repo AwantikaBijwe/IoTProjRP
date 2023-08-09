@@ -1,7 +1,7 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
    <groupId>com.mycompany.app</groupId>
-  <artifactId>my-app-1-client</artifactId>
+  <artifactId>my-app</artifactId>
   <version>1</version>
   <packaging>war</packaging>
     <build>
@@ -10,7 +10,7 @@
                 <artifactId>maven-jar-plugin</artifactId>
                 <version>3.1.1</version>
                       <configuration>
-                    <classifier>client</classifier>
+                    <classifier>1</classifier>
                     <archive>
             <manifest>
               <addClasspath>true</addClasspath>
