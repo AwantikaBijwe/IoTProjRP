@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
    <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-    <version>4.0.0</version>            
+    <version>3.9.4</version>            
     <packaging>jar</packaging>
   
  
@@ -11,7 +11,7 @@
        
     <plugin>
                <artifactId>maven-jar-plugin</artifactId>
-                <version>4.0.0</version>
+                <version>3.9.4</version>
                       <configuration>
                     <classifier>1</classifier>
                    
