@@ -3,5 +3,6 @@
    <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
     <version>4.0.0</version>
+                      <classifier>1</classifier>
     <packaging>jar</packaging>
   </project>
