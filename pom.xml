@@ -4,17 +4,6 @@
   <artifactId>my-app</artifactId>
   <version>1</version>
   <packaging>jar</packaging>
-    <build>
-    <plugins>   
-       
-    <plugin>
-               <artifactId>maven-jar-plugin</artifactId>
-                <version>4.0.0</version>
-                      <configuration>
-                    <classifier>1</classifier>
-                   
-                </configuration>
-            </plugin>
-</plugins></build>
+   
 
 </project>
