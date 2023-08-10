@@ -10,12 +10,7 @@
   <url>http://www.example.com</url>
 
   
-  <modules>
-    <module>server</module>
-    <module>webapp</module>
-  </modules>
-
-  <build>
+    <build>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
