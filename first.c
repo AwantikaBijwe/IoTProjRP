@@ -2,8 +2,8 @@
 int main() {    
 
     int number1, number2, sum;
-    number1=16;
-    number2=12;
+    number1=22;
+    number2=11;
     
    // printf("Enter two integers: ");
    // scanf("%d %d", &number1, &number2);
